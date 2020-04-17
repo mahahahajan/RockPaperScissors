@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    color: black;
+}
+h1 {
+    font-weight: bold;
+    color: black;
+}
+.page {
+    margin: 15% auto;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+
+}
+.scoreboard {
+    display: flex;
+    width: 100%;
+}
+.you {
+    flex: 50%;
+}
+.computer {
+    flex: 50%;
+}
+.game{
+    display: flex;
+}
+#yourMove{
+    flex: 40%;
+    height: 250px;
+    font-size: 10rem;
+}
+#compMove{
+    flex: 40%;
+    height: 250px;
+    font-size: 10rem;
+}
+.buttons{
+    margin-top: 50px;
+    display: flex;
+}
+.button{
+    height: 75px;
+    width: 75px!important;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto;
+    font-size: 2.5rem;
+}
+.button:hover{
+    background-color: black;
+    color: white;   
+}
